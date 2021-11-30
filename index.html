@@ -1,43 +1,102 @@
 <!DOCTYPE html>
 <html>
-<body>
-	<title> Research Proposal - Alex Thibado </title> 
-	<h4>Introduction</h4>
-</body>
-   <body>Over the past roughly two years, due to the COVID-19 pandemic, we have witnessed a massive increase in the utilization of online learning resources used to continue the movement of school during these times. Nowadays it is just about as common to have an online class to an in person class, however the meaning of an “online class” has begun to vary depending on the course and professor. I am interested in this shift to using online tools in an academic environment and how this has affected overall student morale and learning. I think it is imperative that in this time we note and document the kind of changes that have been temporarily implemented in our society/universities and how this is currently affecting this generation of college students. Education is, and will continue to be an ever important tool of humanity so it should be assumed that research that treats the nature and status of learning tools in relation to students is extremely important. 
-   </body>
 <head>
-  <title>
-    <h4>Background & Review of Literature</h4>
-  </title>
-  </head>
-  <body><br>As this is a present day situation that has been unfolding for the past couple years, I have some pre-existing knowledge on this topic, especially because I have been a student during a portion of this pandemic. I think that my pre knowledge of this topic will greatly help me come up with methodology and research methods to connect with other college students.</br> 
-<br>I found a research study about this topic from Georgia State University School of Public Health Students. The study considered the situation with online learning right now and expressed how this adaptation was made and how quickly it became a part of their routine academia. A quote from the study that stuck out to me was an observation of difficulties students have with online learning. 
-“What is at issue with distance learning in the COVID-19 environment is the lack of options for students to determine whether they want to take online courses or not, the lack of access to free technology hardware, software and internet services on campus due to social distancing, a lack of motivation to learn; the new course workload, adapting to unfamiliar technology for first time online student users and uncertainty about the future among others (Armstrong-Mensah et al.)”
-Furthermore in this article, they conducted research on a large group of students through surveys and asked a variety of questions that addressed many common concerns there are with online learning. 
-	<br>
-	The purpose of the study was, to quote: 
-“(i) identify the challenges GSU SPH students were facing with their academic work as a result of COVID-19; (ii) inform GSU SPH leadership and faculty about the challenges so they can take appropriate steps to address them; and to (iii) identify the positive aspects of the on-line transition as a result of COVID-19 (Armstrong-Mensah et al.)”</br>
-<br>This study was very interesting to me and definitely deals with the same theme as mine. I think what this research is lacking is really just relativity to the students here at PSU. Across the country many universities have been affected in very similar ways. However, I am positive that there would be differences between: region of students, field of study, etc. For these reasons I think it is important that many, if not all universities take a step in this direction and harvest data on the realities of online learning.
-	</br>
-	I have also found other studies that examine the effect of COVID-19 with college students from different universities. There seems to be a decent amount of already conducted research on this topic, however it is all very new information as the COVID-19 pandemic arose just a couple years ago. 
-Armstrong-Mensah, Elizabeth, et al. “Covid-19 and Distance Learning: Effects on Georgia State University School of Public Health Students.” Frontiers, Frontiers, 1 Jan. 1AD, https://www.frontiersin.org/articles/10.3389/fpubh.2020.576227/full. 
-“How Covid-19 Pandemic Affected Higher Education Students' Lives Globally and in the United States: College of Business.” University of Nevada, Reno, 28 Aug. 2020, https://www.unr.edu/business/international/blog/covid-19-affecting-students. 
-  </body>
-  <head>
-    <title>
-      <h4>Rationale</h4>
-    </title>
-  </head>
-  <body>
-    <ul>
-      <li>How has online learning changed student motivation to learn?</li>
-      <li>What is the preferred method of learning during these times?</li>
-      <li>Has online learning created a more difficult school agenda?</li>
-      <li>What do these trends indicate about the difference of preferences among: gender, socioeconomic status, ethnicity, etc?</li>
-    </ul>
-    <blockquote> These questions help solidify and define this topic to provide data. From my pre-existing knowledge of these topics, I would expect to receive a lot of mixed responses. In my experience I have seen many students love and hate online learning platforms, and I think answers will vary greatly. There are many factors that come into play while looking at a student's success in online learning. I hope that through asking multifaceted questions we would receive effective information that expresses online learning trends among PSU students. </blockquote>
-  </body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Verdana;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #3DBA65;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: black;}
+#News {background-color: #1F1D36;}
+#Contact {background-color: #3F3351;}
+#About {background-color: #864879;}
+#Cats {background-color: #E9A6A6;}
+</style>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'black')" id="defaultOpen">Research Proposal</button>
+<button class="tablink" onclick="openPage('News', this, '#1F1D36')">Background</button>
+<button class="tablink" onclick="openPage('Contact', this, '#3F3351')">Rationale</button>
+<button class="tablink" onclick="openPage('About', this, '#864879')">Method & Design</button>
+<button class="tablink" onclick="openPage('Cats', this, '#E9A6A6')">Sources</button>
+
+<div id="Home" class="tabcontent">
+  <h1>Research Proposal</h1>
+  <img src="https://www.vippng.com/png/full/158-1582718_skyline-clipart-small-town-town-clipart-transparent-background.png">
+  <h3>Introduction</h3>
+   <p>The proposed research proposal is : Why do people choose to live in small towns? This research topic surrounds the concepts of urbanization, political science, humanities, and locational mindsets. Although this question can seem vague and uninteresting at first glance, the underlying reasons on why people choose to live where they live can help understand the disparities and polarization that this country has been seeing in the last few years. Societies form from people coming together, and communities forming their own customs, cultures, and concepts fundamentally control how the economy, government, and politics work together. This research question can also touch on controversial topics such as women's rights, LBGTQ rights, immigration, healthcare, and global warming. It is important to know how rural communities feel about global issues that seem more adherent in urbanized environments.</p>
+</div>
+
+<div id="News" class="tabcontent">
+  <h3>Background/Review of the Literature</h3>
+  <p>Add text here...</p> 
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Rationale</h3>
+  <p>Add text here...</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>Method and Design</h3>
+  <p>Add text here...</p>
+</div>
   
-</html>
+<div id="Cats" class="tabcontent">
+  <h3>Sources</h3>
+  <p>Add text here...</p>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
    
+</body>
+</html>
